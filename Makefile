@@ -1,4 +1,4 @@
-obj-m += dt_probe.o
+obj-m += dt_gpio.o
 
 all: module dt
 	echo Builded Device Tree Overlay and kernel module
